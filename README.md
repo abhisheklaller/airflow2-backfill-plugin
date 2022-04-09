@@ -51,7 +51,6 @@ provide backfill compatibility on UI so that user can just click one button and 
 ![Alt text](./airflow/images/submitted.png?raw=true "Submitted")
 * You can integrate external links on ui by changing code [here](https://github.com/abhisheklaller/airflow2-backfill-plugin/blob/f26ee1fa8e2495020a2f69f02194548379b0dccf/airflow/plugins/__init__.py#L12)
 
-
 ## Testing locally:
 Follow below steps:
 
