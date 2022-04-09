@@ -49,6 +49,7 @@ provide backfill compatibility on UI so that user can just click one button and 
 * Provide start and end date (It should not be greater than the current date and the difference between shouldn’t be greater than 30 days, otherwise you will get the invalidate prompt)
 * Once you click start button, the framework will trigger backfill in the airflow webserver and you can see the logs of your dag as usual on UI. Please note: sometime it will take time to spin up the dag instance depending upon Kubernetes resources and scheduler queue.
 ![Alt text](./airflow/images/submitted.png?raw=true "Submitted")
+* You can integrate external links on ui by changing code [here](https://github.com/abhisheklaller/airflow2-backfill-plugin/blob/f26ee1fa8e2495020a2f69f02194548379b0dccf/airflow/plugins/__init__.py#L12)
 
 
 ## Testing locally:
